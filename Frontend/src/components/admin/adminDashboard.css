@@ -1,0 +1,56 @@
+/* adminDashboard.css */
+.sidebar-active {
+    background-color: #1e40af; /* Tailwind's blue-800 */
+  }
+  
+  /* Navbar styles */
+.admin-navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.admin-logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.admin-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.admin-dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.admin-profile-section {
+  font-size: 16px;
+  color: #555;
+}
+.admin-dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.admin-main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-content-area {
+  padding: 20px;
+}
